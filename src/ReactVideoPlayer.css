@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+.screen{
+    width: 80%;
+    background: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.controlPanel{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+    padding: 5px 5px;
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.controlPanel #vol{
+    margin-left: 15px;
+}
+
+button{
+    background: transparent;
+    border: none;
+    
+}
+
+button .fa-play{
+    color: green;
+}
+button .fa-stop{
+    color: red;
+}
+
+.timestamp{
+    color: rgba(255, 248, 220, 0.342);
+}
+
+.volumeLevel{
+    margin:0;
+    padding:0;
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 30px;
+
+}
